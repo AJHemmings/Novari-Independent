@@ -28,32 +28,38 @@ With Novari, we’re not just offering a tool, we’re building an environment w
 - **Playwright**: A Testing framework.
 - **Supabase**: Database and authentication.
 
-
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js and npm installed on your machine.
 
-## TEST ACCESS 
+## TEST ACCESS
+
 - **email**: guest@demo.com
 - **password**: demopassword1234
 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/novari.git
+
+   ```
 
 2. Navigate to the project directory:
    ```bash
    cd novari
+   ```
 3. Install dependencies:
    ```bash
    npm install
+   ```
 4. Start the development server:
    ```bash
    npm run dev
+   ```
 5. Open your browser and navigate to http://localhost:3000 to see the app in action.
 
 ### Contributing
@@ -69,9 +75,19 @@ We welcome contributions from the community! If you'd like to contribute, please
     Push your changes to your fork.
 
     Submit a pull request to the main repository.
-    
+
+### Commit Message Format
+
+Please use the following conventional commit prefixes when making contributions:
+
+- feat: for new features (e.g., feat: add search functionality)
+- fix: for bug fixes (e.g., fix: correct typo in term definition)
+- chore: for maintenance tasks (e.g., chore: update dependencies)
+- refactor: for code refactoring that doesn't change functionality (e.g., refactor: simplify term card component)
+- This helps us keep the project history clean and readable.
 
 ## Links
+
 - [Novari](https://well-being-app-final-project.vercel.app/auth/signin)
 - [Presentation Slides](https://www.canva.com/design/DAGg--cQNLc/Y9WP7dp88ABfBhE-rwA8HA/edit)
 - [LinkedIn - Adam](https://www.linkedin.com/in/adam-hemmings-75b71b55/)
@@ -79,7 +95,6 @@ We welcome contributions from the community! If you'd like to contribute, please
 - [LinkedIn - Conner](https://www.linkedin.com/in/conner-adamsons-0986352a7/)
 - [LinkedIn - Kit](https://www.linkedin.com/in/kit-jones-64926a2aa/)
 - [LinkedIn - Maddy](https://www.linkedin.com/in/madeleine-walsh-81737498/)
-
 
 If you have any questions or feedback, please reach out to us at adamhemmingsdev@gmail.com
 
