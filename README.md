@@ -66,15 +66,15 @@ With Novari, we’re not just offering a tool, we’re building an environment w
 
 We welcome contributions from the community! If you'd like to contribute, please follow these steps:
 
-    Fork the repository.
+   - Fork the repository.
 
-    Create a new branch for your feature or bugfix.
+   - Create a new branch for your feature or bugfix.
 
-    Make your changes and commit them.
+   - Make your changes and commit them.
 
-    Push your changes to your fork.
+   - Push your changes to your fork.
 
-    Submit a pull request to the main repository.
+   - Submit a pull request to the main repository.
 
 ### Commit Message Format
 
