@@ -86,6 +86,9 @@ Please use the following conventional commit prefixes when making contributions:
 - refactor: for code refactoring that doesn't change functionality (e.g., refactor: simplify term card component)
 - This helps us keep the project history clean and readable.
 
+### Known Issues
+- Tutorial is currently disabled due to a render bug.
+
 ## Links
 
 - [Novari](https://well-being-app-final-project.vercel.app/auth/signin)
