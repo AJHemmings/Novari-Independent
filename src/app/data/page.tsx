@@ -1,4 +1,4 @@
-import { supabase } from "@/lib/supabase";
+import supabase from "../../lib/supabase";
 
 export default async function DataPage() {
   const { data, error } = await supabase.from("your_table").select("*");
