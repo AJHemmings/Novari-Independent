@@ -1,7 +1,7 @@
 import { Server } from "socket.io";
 import { Redis } from "@upstash/redis";
 import { createAdapter } from "@socket.io/redis-adapter";
-import { supabaseServer } from "@/lib/supabase";
+import supabaseServer from "@/lib/supabaseServer";
 
 type SocketServer = Server;
 
