@@ -1,6 +1,7 @@
 import { Server } from "socket.io";
 import { Redis } from "@upstash/redis";
 import { createAdapter } from "@socket.io/redis-adapter";
+import { supabaseServer } from "@/lib/supabase";
 
 type SocketServer = Server;
 
@@ -26,8 +27,18 @@ export async function getSocketServer(): Promise<SocketServer> {
 
     io.adapter(createAdapter(pubClient, subClient));
 
-    io.on("connection", (socket) => {
+    io.on("connection", async (socket) => {
       console.log(`Socket connected: ${socket.id}`);
+
+      const { data: messages, error } = await supabaseServer
+        .from("messages")
+        .select("*");
+
+      if (error) {
+        console.error("Supabase error:", error);
+      } else {
+        console.log("Messages:", messages);
+      }
     });
 
     global.io = io;

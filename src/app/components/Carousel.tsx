@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Check } from "lucide-react";
-import { supabase } from "../../lib/supabase";
+import supabase from "../../lib/supabase";
 
 type Task = {
   id: number;
