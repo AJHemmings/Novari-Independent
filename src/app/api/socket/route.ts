@@ -9,9 +9,6 @@ export async function GET() {
     return NextResponse.json({ status: "Socket.IO server ready" });
   } catch (error) {
     console.error("Socket init failed:", error);
-    return (
-      NextResponse.json({ error: "Failed to initialze socket server" }),
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to initialze socket server" });
   }
 }
