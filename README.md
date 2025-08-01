@@ -27,6 +27,7 @@ We're building a secure and intuitive messaging system that will enable:
 - 📨 Message requests for new connections
 - ✨ Rich media support (images, links, etc.)
 - ⏱️ Real-time message delivery indicators
+
   *This feature is currently in active development and will be released in an upcoming version.*
 
 ## Technologies Used 💻
