@@ -52,26 +52,30 @@ We're building a secure and intuitive messaging system that will enable:
 
 ### Installation 💻
 
-1. Clone the repository:
+1. **Fork the repository**:
+   
+- Click the "Fork" button at the top right of the [Novari GitHub repository](https://github.com/AJHemmings/Novari-Independent) to create your own copy.
+
+2. **Clone your forked repository**:
 
    ```bash
    git clone https://github.com/yourusername/novari.git
 
    ```
 
-2. Navigate to the project directory:
+3. **Navigate to the project directory**:
    ```bash
    cd novari
    ```
-3. Install dependencies:
+4. **Install dependencies**:
    ```bash
    npm install
    ```
-4. Start the development server:
+5. **Start the development server**:
    ```bash
    npm run dev
    ```
-5. Open your browser and navigate to http://localhost:3000 to see the app in action.
+6. Open your browser and navigate to http://localhost:3000 to see the app in action.
 
 ### Contributing 📰
 
